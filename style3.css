@@ -1,0 +1,55 @@
+ul {
+    list-style-type: none;
+   margin: 0;
+    padding: 0;
+   overflow: hidden;
+   background-color: rgb(106, 208, 240);
+   width: 100%;
+}
+
+.x {
+float: left;
+}
+.x a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 50px;
+text-decoration: none;
+
+}
+
+ .x a:hover {
+background-color:gray;
+} 
+body{ 
+    background-image: url("zzz20.PNG");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+table,tr,th,td{ 
+    border: 2px solid chartreuse;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.s{ 
+    width: 200px;
+    height: 200px;
+}
+
+.a{ 
+    color:rgb(189, 72, 36);
+    font-size: 23px;
+    margin: 20px;
+}
+@media screen and (max-width:1000px) {
+    .x a { 
+        padding:10px 15px;
+    }
+    .s{  border-radius: 50%;
+        width: 100px;
+    }
+    
+    
+}

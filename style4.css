@@ -1,0 +1,62 @@
+.u {
+    list-style-type: none;
+   margin: 0;
+    padding: 0;
+   overflow: hidden;
+   background-color: rgb(106, 208, 240);
+   width: 100%;
+}
+
+.x {
+float: left;
+}
+.x a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 50px;
+text-decoration: none;
+
+}
+
+ .x a:hover {
+background-color:gray;
+} 
+body{ 
+    background-image: url("zzz25.PNG");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+.q{ 
+    width: 300px;
+    height: 200px;
+    float: right;
+}
+.r{ 
+    width: 300px;
+    height: 200px;
+    float: right;
+}
+.a{ 
+    color:rgb(180, 192, 14);
+    font-size: 23px;
+    margin: 20px;
+}
+@media screen and (max-width:1000px) {
+    .x a { 
+        padding:10px 15px;
+
+    }
+    .q{ 
+        width: 200px;
+        float: none;
+        border-radius: 50%;
+    }
+    .r{ 
+        width: 200px;
+        float: none;
+        border-radius: 50%;
+    }
+    
+}
